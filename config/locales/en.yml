@@ -22,3 +22,5 @@
 en:
   hello: "Hello world"
   app_name: "Rental House System"
+  register: "Register"
+  login: "Login"
