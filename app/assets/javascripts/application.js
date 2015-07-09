@@ -15,3 +15,13 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
+
+
+function initialize() {
+  var mapProp = {
+    center: new google.maps.LatLng(21.017030, 105.783902),
+    zoom: 13,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("map-canvas"), mapProp);
+}
